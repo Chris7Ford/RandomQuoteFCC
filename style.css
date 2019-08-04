@@ -1,0 +1,99 @@
+body{
+  background-color: cyan;
+    height: 100%;
+}
+
+
+.buffTest {
+  position:relative;
+  top:1em;
+  right:0em;
+  background-color: white;
+  padding: 20em;
+  border-radius:.5em;
+}
+
+#title{
+
+  border-radius:.5em;
+}
+
+#titleContain{
+  position:absolute;
+  top:1em;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align:center;
+  
+}
+
+#quoteBody{
+  position:absolute;
+  top:10em;
+  right:33.5%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align:center;  
+  padding:6em;
+}
+
+#speakerBody{
+  position:absolute;
+  top:21.8em;
+  right:33.5%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align:center;  
+  padding:1em;
+}
+
+#speakerPlace{
+  position:relative;
+  bottom:0em;
+  float:right;
+}
+
+#buttonBody{
+  position:absolute;
+  top:30em;
+  right:33.5%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align:center;  
+}
+
+#tweetBody{
+  position:absolute;
+  bottom:0em;
+  right:33.5%;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+  text-align:center;  
+}
+
+
+.btn-default:hover{
+    background-color: cyan !important;
+  transition: color 5s !important;
+
+}
+
+.fa:hover {
+  color:cyan;
+  transition: color .5s;
+}
+
+.btn-default:active {
+      background-color: cyan !important;
+    opacity:.5;
+}
